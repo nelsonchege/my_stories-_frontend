@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+ * {
+	 box-sizing: border-box;
+	 margin: 0;
+	 padding: 0;
+}
+.main_div {
+	 background: #9b9795;
+	 color: rgba(0, 0, 0, .8);
+	 display: grid;
+	 font-family: 'Montserrat', sans-serif;
+	 font-size: 14px;
+	 font-weight: 400;
+	 height: 100vh;
+	 justify-items: center;
+}
+ .signup-container {
+    align-items: center;
+	 display: grid;
+	 grid-template-areas: "left right";
+	 max-width: 900px;
+}
+ .left-container {
+	 background: #807182;
+	 overflow: hidden;
+	 padding: 10px 0 0 0;
+	 position: relative;
+	 width: 300px;
+     height: 576px;
+}
+.phoneNumber input,.firstName input,.secondName input,.email input,.username input,.birthday input{
+	background: #fff;
+}
+.exit{
+    padding-left: 2%;
+}
+.exit button {
+    padding-left: 2;
+    border: none;
+    border-radius: 50%;
+    height: 38px;
+    margin-right: 10px;
+    outline: none;
+    width: 38px;
+}
+ .right-container {
+	 background: #bbb5f7;
+	 display: grid;
+	 grid-template-areas: "." ".";
+	 width: 500px;
+}
+ .right-container h1{
+	 color: rgba(0, 0, 0, .8);
+	 font-size: 28px;
+	 font-weight: 600;
+}
+ .right-container .set {
+	 display: flex;
+	 justify-content: space-between;
+	 margin: 10px 0;
+}
+ .right-container input {
+	 border: 1px solid rgba(0, 0, 0, .1);
+	 border-radius: 4px;
+	 height: 38px;
+	 line-height: 38px;
+	 padding-left: 5px;
+}
+ .right-container input, .right-container label {
+	 color: rgba(0, 0, 0, .8);
+}
+ .right-container header {
+	 padding: 40px;
+}
+
+ .right-container label, .right-container input, .right-container .user-photo {
+	 width: 176px;
+}
+ .right-container .user-photo {
+	 align-items: center;
+	 display: grid;
+	 grid-template-areas: ". .";
+}
+ .right-container .user-photo button {
+	 border: none;
+	 border-radius: 50%;
+	 height: 38px;
+	 margin-right: 10px;
+	 outline: none;
+	 width: 38px;
+}
+
+ .right-container .user-photo button i {
+	 color: rgba(0, 0, 0, .8);
+	 font-size: 16px;
+}
+ .right-container footer {
+	 align-items: center;
+	 background: #fff;
+	 display: grid;
+	 padding: 5px 40px;
+}
+ .right-container footer button {
+	 border: 1px solid rgba(0, 0, 0, .2);
+	 height: 38px;
+	 line-height: 38px;
+	 width: 100px;
+	 border-radius: 19px;
+	 font-family: 'Montserrat', sans-serif;
+}
+ .right-container footer #back {
+	 background: #fff;
+	 transition: 0.2s all ease-in-out;
+}
+ .right-container footer #back:hover {
+	 background: #171a2b;
+	 color: white;
+}
+ .right-container footer #next {
+	 background: #807182;
+	 border: 1px solid transparent;
+	 color: #fff;
+}
+ .right-container footer #next:hover {
+	 background: #171a2b;
+}
+
+
+ .username label, .firstName label,.phoneNumber label,
+ .secondName label,.email label,.birthday label,.Gender label 
+  {
+	 display: block;
+	 margin-bottom: 5px;
+}
+ .radio-container {
+	 background: #fff;
+	 border: 1px solid rgba(0, 0, 0, .1);
+	 border-radius: 4px;
+	 display: inline-block;
+	 padding: 5px;
+}
+ .radio-container label {
+	 background: transparent;
+	 border: 1px solid transparent;
+	 border-radius: 2px;
+	 display: inline-block;
+	 height: 26px;
+	 line-height: 26px;
+	 margin: 0;
+	 padding: 0;
+	 text-align: center;
+	 transition: 0.2s all ease-in-out;
+	 width: 80px;
+}
+ .radio-container input[type="radio"] {
+	 display: none;
+}
+ .radio-container input[type="radio"]:checked + label {
+	 background: #f7b1ab;
+	 border: 1px solid rgba(0, 0, 0, .1);
+}
+ 
