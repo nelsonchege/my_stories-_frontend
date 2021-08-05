@@ -21,7 +21,7 @@ function Signup  () {
       //     "password":password_login
       // })   
     };
-    fetch('http://127.0.0.1:5000/login',opts)
+    fetch('https://mystoriesbackend.herokuapp.com/login',opts)
     .then(res=>{
       if(res.status ===200)
          return console.log(res.json()),res.json() ;
